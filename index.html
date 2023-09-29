@@ -53,70 +53,37 @@
          
         </p>
         <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/break-my-heart/pl.u-BNA66YVF36MZpE"></iframe>
-        <!--PUTITHERE-->
-        <audio id="audio1" src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4"></audio>
-        <img id="img1" src="szn.png" onclick="playPause('audio1', 'img1')" alt="Play Audio" style="cursor:pointer;">
-        <script>
-        function playPause(audioId, imgId) {
-          var audio = document.getElementById(audioId);
-          var image = document.getElementById(imgId);
-      
-          if (audio.paused) {
-            audio.play();
-            image.src = "1200px-Play_Pause_icon_2283501.svg.png"; // Change to your pause image
-          } else {
-            audio.pause();
-            image.src = "1200px-Play_Pause_icon_2283501.svg.png"; // Change back to play image
-          }
-        }
-      </script>
-          <audio controls>
-            <source src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>IDECIDEDIDONTLIKEPHO</p>
+        <!--PUTITHERE-->          
+          <audio id="audio2" src="background.m4a" type="audio/mp4"></audio>
+          <img id="img2" src="perfect.jpg" onclick="playPause('audio2')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio7" src="squares.m4a" type="audio/mp4"></audio>
+          <img id="img7" src="squares.png" onclick="playPause('audio7')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio5" src="insideurcore.m4a" type="audio/mp4"></audio>
+          <img id="img5" src="lub.png" onclick="playPause('audio5')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio6" src="newyorkcity.m4a" type="audio/mp4"></audio>
+          <img id="img6" src="lana.png" onclick="playPause('audio6')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio4" src="helmett.m4a" type="audio/mp4"></audio>
+          <img id="img4" src="lacy.jpg" onclick="playPause('audio4')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio1" src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4"></audio>
+          <img id="img1" src="szn.png" onclick="playPause('audio1')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio8" src="washingmachineheart.m4a" type="audio/mp4"></audio>
+          <img id="img8" src="washing.jpg" onclick="playPause('audio8')" alt="Play Audio" style="cursor:pointer;">
+          <audio id="audio3" src="dramatic.m4a" type="audio/mp4"></audio>
+          <img id="img3" src="three.jpg" onclick="playPause('audio3')" alt="Play Audio" style="cursor:pointer;">
+
           
-          <audio controls>
-            <source src="background.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Background</p>
+          <script>
+            function playPause(audioId) {
+              var audio = document.getElementById(audioId);
           
-          <audio controls>
-            <source src="dramatic.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Dramatic</p>
-          
-          <audio controls>
-            <source src="helmett.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Helmett</p>
-          
-          <audio controls>
-            <source src="insideurcore.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Inside Ur Core</p>
-          
-          <audio controls>
-            <source src="newyorkcity.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>New York City</p>
-          
-          <audio controls>
-            <source src="squares.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Squares</p>
-          
-          <audio controls>
-            <source src="washingmachineheart.m4a" type="audio/mp4">
-            Your browser does not support the audio element.
-          </audio>
-          <p>Washing Machine Heart</p>
+              if (audio.paused) {
+                audio.play();
+              } else {
+                audio.pause();
+              }
+            }
+          </script>
+
 
       </div>
       <div>
