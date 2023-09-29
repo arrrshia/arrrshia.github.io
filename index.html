@@ -54,61 +54,63 @@
         </p>
         <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/break-my-heart/pl.u-BNA66YVF36MZpE"></iframe>
         <!--PUTITHERE-->          
-          <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 16px;">
-          
-            <div>
-              <audio id="audio2" src="background.m4a" type="audio/mp4"></audio>
-              <img id="img2" src="perfect.jpg" onclick="playPause('audio2')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio7" src="squares!.m4a" type="audio/mp4"></audio>
-              <img id="img7" src="squares.png" onclick="playPause('audio7')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio5" src="insideurcore..m4a" type="audio/mp4"></audio>
-              <img id="img5" src="lub.png" onclick="playPause('audio5')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio6" src="newyorkcity!.m4a" type="audio/mp4"></audio>
-              <img id="img6" src="lana.png" onclick="playPause('audio6')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio4" src="helmett.m4a" type="audio/mp4"></audio>
-              <img id="img4" src="lacy.jpg" onclick="playPause('audio4')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio1" src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4"></audio>
-              <img id="img1" src="szn.png" onclick="playPause('audio1')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio8" src="washingmachineheart!.m4a" type="audio/mp4"></audio>
-              <img id="img8" src="washing.jpg" onclick="playPause('audio8')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-            <div>
-              <audio id="audio3" src="dramatic..m4a" type="audio/mp4"></audio>
-              <img id="img3" src="three.jpg" onclick="playPause('audio3')" alt="Play Audio" style="cursor:pointer; width: 100%;">
-            </div>
-          
-          </div>
-          
-          <script>
-            function playPause(audioId) {
-              var audio = document.getElementById(audioId);
-          
-              if (audio.paused) {
-                audio.play();
-              } else {
-                audio.pause();
-              }
-            }
-          </script>
+        <!--PUTITHERECHATGPT-->
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 18px;">
+
+  <div>
+    <audio id="audio2" src="background.m4a" type="audio/mp4"></audio>
+    <img id="img2" src="perfect.jpg" onclick="playPause('audio2')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio7" src="squares!.m4a" type="audio/mp4"></audio>
+    <img id="img7" src="squares.png" onclick="playPause('audio7')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio5" src="insideurcore..m4a" type="audio/mp4"></audio>
+    <img id="img5" src="lub.png" onclick="playPause('audio5')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio6" src="newyorkcity!.m4a" type="audio/mp4"></audio>
+    <img id="img6" src="lana.png" onclick="playPause('audio6')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio4" src="helmett.m4a" type="audio/mp4"></audio>
+    <img id="img4" src="lacy.jpg" onclick="playPause('audio4')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio1" src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4"></audio>
+    <img id="img1" src="szn.png" onclick="playPause('audio1')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio8" src="washingmachineheart!.m4a" type="audio/mp4"></audio>
+    <img id="img8" src="washing.jpg" onclick="playPause('audio8')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+  <div>
+    <audio id="audio3" src="dramatic..m4a" type="audio/mp4"></audio>
+    <img id="img3" src="three.jpg" onclick="playPause('audio3')" alt="Play Audio" style="cursor:pointer; width: 70%; height:auto;">
+  </div>
+
+</div>
+
+<script>
+  function playPause(audioId) {
+    var audio = document.getElementById(audioId);
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
+
 
 
 
