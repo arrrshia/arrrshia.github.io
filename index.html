@@ -53,7 +53,23 @@
          
         </p>
         <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/break-my-heart/pl.u-BNA66YVF36MZpE"></iframe>
-        <!--PUTITHERECHATGPT-->
+        <!--PUTITHERE-->
+        <audio id="audio1" src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4"></audio>
+        <img id="img1" src="szn.png" onclick="playPause('audio1', 'img1')" alt="Play Audio" style="cursor:pointer;">
+        <script>
+        function playPause(audioId, imgId) {
+          var audio = document.getElementById(audioId);
+          var image = document.getElementById(imgId);
+      
+          if (audio.paused) {
+            audio.play();
+            image.src = "1200px-Play_Pause_icon_2283501.svg.png"; // Change to your pause image
+          } else {
+            audio.pause();
+            image.src = "1200px-Play_Pause_icon_2283501.svg.png"; // Change back to play image
+          }
+        }
+      </script>
           <audio controls>
             <source src="IDECIDEDIDONTLIKEPHO.m4a" type="audio/mp4">
             Your browser does not support the audio element.
